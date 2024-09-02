@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, 
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+#___gatsby,
+#gatsby-focus-wrapper{
+    @apply flex flex-col min-h-screen
+}
+
+#gatsby-focus-wrapper{
+    background-color: #faf5f1;
+}
+
+.active{
+    color: orange;
+    font-weight: 600;
+}
+
+.menu-item{
+    @apply text-lg p-4 border border-transparent text-[#6B6B6B] hover:text-orange-500 hover:border-b hover:border-b-orange-500
+}

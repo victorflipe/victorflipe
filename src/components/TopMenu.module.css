@@ -1,0 +1,30 @@
+.top-nav{
+    display: flex;
+    /* width: 30%; */
+    background-color: red;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.li-nav{
+    list-style: none;
+    padding: 0.5rem
+}
+
+.ul-nav{
+    display: flex;
+}
+
+.select-language{
+    border-radius: 30px;
+    padding: 0 30px;
+    height: 53px;
+    width: 118px;
+}
+
+.button-light{
+    height: 53px;
+    width: 88px;
+    border-radius: 30px;
+}

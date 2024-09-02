@@ -1,0 +1,27 @@
+name: Deploy to VPS
+
+on: 
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Execute remote commands via SSH
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ vars.HOST }}
+        port: ${{ vars.PORT }}
+        username: ${{ vars.USERNAME }}
+        key: ${{ secrets.HOST_KEY }}
+        script: |
+          cd /var/www/sites-victor/victorflipe/ &&
+          git pull origin main  &&
+          npm install &&
+          npm run build

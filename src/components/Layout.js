@@ -1,7 +1,7 @@
 import * as React from 'react'
 import '../styles/global.css'
-import MenuComponent from './TopMenu'
-import Footer from './Footer'
+import MenuComponent from './TopMenu.js'
+import Footer from './Footer.js'
 import iconSquare from '../images/icons/icon-square.svg'
 
 const Layout = ({PageTitle, children, breadcrumbs, marginFooter}) => {

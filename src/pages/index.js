@@ -21,7 +21,7 @@ const IndexPage = () => {
       <div className="text-base content-center">
 
         <div className="bg-white rounded-[20px] border shadow-sm border-[#F47500]/[.28] items-center p-10">
-        <div className="flex items-center justify-around">
+        <div className="flex items-center justify-around p-5">
           <div className=" text-[#6B6B6B] px-5 py-10 h-[80%] hover:border-solid w-2/4 text-justify">
               <p>
               Bem vindo(a) a minha página!<br/><br/>
@@ -37,7 +37,7 @@ const IndexPage = () => {
           </div>
         </div>
 
-          <div className="flex justify-center gap-20 items-center mt-3 px-10">
+          <div className="flex justify-center gap-10 items-center mt-3 px-10">
             <a href="https://www.linkedin.com/in/victorroli/" className="" target="_blank" rel="noreferrer">
                 <img className="shadow-md shadow-gray-300 rounded-md" src={linkedin}/>
             </a>

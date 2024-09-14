@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import Technology from "../components/Technology"
 import figma from "../images/icons/figma.png"
 import trello from "../images/icons/trello.png"
 import javascript from "../images/icons/javascript.svg"
@@ -171,34 +172,36 @@ const Stack = () => {
     return (
         <Layout PageTitle="Tecnologias e Ferramentas">
             
-            <div className="m-5 px-60 w-full">
-                <div className="border rounded-lg border-orange-200/60 bg-orange-50">
-                    <span className="flex justify-center text-lg text-gray-500 font-semibold my-2">Status Atual</span>
-                    <div className="flex gap-5 justify-center mb-4">
-                        <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-green-400 rounded-lg"></span>
-                            <span>Uso Frequente</span>
+                <div className="m-5 px-60 w-full">
+                    <div className="border rounded-lg border-orange-200/60 bg-orange-50">
+                        <span className="flex justify-center text-lg text-gray-500 font-semibold my-2">Status Atual</span>
+                        <div className="flex gap-5 justify-center mb-4">
+                            <div className="flex items-center gap-2">
+                                <span className="w-2 h-2 bg-green-400 rounded-lg"></span>
+                                <span>Uso Frequente</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <span className="w-2 h-2 bg-orange-400 rounded-lg"></span>
+                                <span>Não tão frequente</span>
+                            </div>
+                            
                         </div>
-                        <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-orange-400 rounded-lg"></span>
-                            <span>Não tão frequente</span>
-                        </div>
-                        
                     </div>
                 </div>
-            </div>
 
-            <div className="flex flex-wrap gap-8 mt-10 justify-center mb-20">
-                {
-                    stackList.map(item => {
-                        return (
-                        <Technology name={item.name} type={item.type} active={item.active ? "true" : ""} key={item.name}>
-                            <img className="w-10" src={item.image} alt={item.name}/>
-                        </Technology>)
-                    })
-                }
+                <div className="flex flex-wrap gap-8 mt-10 justify-center mb-20">
+                    {
+                        stackList.map(item => {
+                            return (
+                            <Technology name={item.name} type={item.type} active={item.active ? "true" : ""} key={item.name}>
+                                <img className="w-10" src={item.image} alt={item.name}/>
+                            </Technology>)
+                        })
+                    }
 
-            </div>
+                </div>
+
+            
 
             
         </Layout>

@@ -172,7 +172,7 @@ const Stack = () => {
     return (
         <Layout PageTitle="Tecnologias e Ferramentas">
             
-                <div className="m-5 px-60 w-full">
+                <div className="sm:px-20 w-full">
                     <div className="border rounded-lg border-orange-200/60 bg-orange-50">
                         <span className="flex justify-center text-lg text-gray-500 font-semibold my-2">Status Atual</span>
                         <div className="flex gap-5 justify-center mb-4">

@@ -10,21 +10,21 @@ import github from "../images/icons/github-icon.svg"
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page" marginFooter="true">
+    <Layout pageTitle="Home Page" marginFooter="true" noTitle="true">
       
       {/* Content main */}
       
-      <h1 className="xl:text-5xl md:text-4xl sm:text-3xl pb-14 text-[#6B6B6B] font-semibold ">
+      <h1 className="xl:text-5xl md:text-4xl text-3xl pb-14 text-[#6B6B6B] font-semibold mt-10">
         Muito prazer,<br/> eu sou o <span className="text-[#F47500]">Victor Felipe</span><br/>
       </h1>
       
       <div className="text-base content-center">
 
         <div className="bg-white rounded-[20px] border shadow-sm border-[#F47500]/[.28] items-center p-10">
-        <div className="flex items-center justify-around p-5">
-          <div className=" text-[#6B6B6B] px-5 py-10 h-[80%] hover:border-solid w-2/4 text-justify">
+        <div className="flex items-center sm:justify-around sm:p-5">
+          <div className=" text-[#6B6B6B] sm:px-5 sm:py-10 h-[80%] hover:border-solid sm:w-2/4 text-justify">
+              <p className="text-center sm:text-left font-semibold text-lg text-orange-600">Bem vindo(a) a minha página!</p><br/><br/>
               <p>
-              Bem vindo(a) a minha página!<br/><br/>
               Sou apaixonado por UX/UI, sendo um grande entusiasta do frontend 
               e tudo que vise facilitar os serviços humanos usando tecnologia, estou há mais de 05 anos construindo soluções por meio da codificação...
               </p>
@@ -32,7 +32,7 @@ const IndexPage = () => {
               
           </div>
         
-          <div className="w-[15rem] p-5 justify-center">
+          <div className="w-[15rem] p-5 justify-center hidden sm:flex">
             <img className="rounded-[20px] shadow-xl rotate-6 shadow-slate-400 w-[80%]" src={myPhoto}/>
           </div>
         </div>
@@ -61,8 +61,8 @@ const IndexPage = () => {
         
         <div className="bg-white/40 backdrop-blur-sm border border-[#F47500]/[.28] text-[#6B6B6B] px-10 py-10 rounded-[20px] shadow-sm mb-20">
           
-          <ul className="lg:flex lg:flex-wrap lg:justify-between lg:gap-8 mx-auto w-2/3 lg:w-full">
-            <li className="p-5 flex">
+          <ul className="lg:flex lg:flex-wrap lg:justify-between lg:gap-8 mx-auto sm:w-2/3 lg:w-full">
+            <li className="sm:p-5 py-3 flex">
               <div className="">
                 <div className="w-full flex content-center items-center justify-between gap-x-5">
                   
@@ -71,8 +71,8 @@ const IndexPage = () => {
                   </div>
                   
                   <div className="">
-                    <p className="text-[#F47500] text-xl font-semibold">Obuc</p>
-                    <p className="text-base">Analista de Programação</p>
+                    <p className="text-[#F47500] sm:text-xl font-semibold">Obuc</p>
+                    <p className="sm:text-base text-gray-500 text-sm">Analista de Programação</p>
                     <span className="items-center hidden sm:flex text-gray-500">
                       <b>2021 - Até o momento</b>
                     </span>
@@ -81,7 +81,7 @@ const IndexPage = () => {
               </div>
             </li>
 
-            <li className="p-5 flex">
+            <li className="sm:p-5 py-3 flex">
               <div className="">
                 <div className="w-full flex content-center items-center justify-between gap-x-5">
                   
@@ -90,8 +90,8 @@ const IndexPage = () => {
                   </div>
                   
                   <div className="">
-                    <p className="text-[#F47500] text-xl font-semibold">Contass Consultoria</p>
-                    <p className="text-base text-gray-500">Desenvolvedor PHP</p>
+                    <p className="text-[#F47500] sm:text-xl font-semibold">Contass Consultoria</p>
+                    <p className="sm:text-base text-gray-500 text-sm">Desenvolvedor PHP</p>
                     <span className="items-center hidden sm:flex text-gray-400">
                       <b>2019 - 2021</b>
                     </span>
@@ -101,7 +101,7 @@ const IndexPage = () => {
               </div>
             </li>
 
-            <li className="p-5 flex">
+            <li className="sm:p-5 py-3 flex">
               <div className="">
                 <div className="w-full flex content-center items-center justify-between gap-x-5">
                   
@@ -110,8 +110,8 @@ const IndexPage = () => {
                   </div>
 
                   <div className="">
-                    <p className="text-[#F47500] text-xl font-semibold">DF Soluções</p>
-                    <p className="text-base text-gray-500 ">Desenvolvedor Web</p>
+                    <p className="text-[#F47500] sm:text-xl font-semibold">DF Soluções</p>
+                    <p className="sm:text-base text-gray-500 text-sm">Desenvolvedor Web</p>
                     <span className="items-center hidden sm:flex text-gray-400">
                       <b>2019</b>
                     </span>

@@ -14,7 +14,7 @@ const IndexPage = () => {
       
       {/* Content main */}
       
-      <h1 className="xl:text-5xl md:text-4xl text-3xl pb-14 text-[#6B6B6B] font-semibold mt-10">
+      <h1 className="xl:text-5xl md:text-4xl text-3xl pb-14 px-10 sm:px-0 text-[#6B6B6B] font-semibold mt-10">
         Muito prazer,<br/> eu sou o <span className="text-[#F47500]">Victor Felipe</span><br/>
       </h1>
       
@@ -61,7 +61,7 @@ const IndexPage = () => {
       
       {/* Work */}
       <div className="relative pt-20">
-        <h2 className="text-3xl text-[#F47500] font-semibold pb-10 ">Experiência</h2>
+        <h2 className="text-3xl text-[#F47500] font-semibold pb-10 px-10 sm:px-0">Experiência</h2>
         
         <div className="bg-white/40 backdrop-blur-sm border border-[#F47500]/[.28] text-[#6B6B6B] px-10 py-10 rounded-[20px] shadow-sm mb-20">
           

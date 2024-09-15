@@ -65,7 +65,7 @@ const IndexPage = () => {
         <div className="bg-white/40 backdrop-blur-sm sm:border border-[#F47500]/[.28] text-[#6B6B6B] px-10 py-10 sm:rounded-[20px] sm:shadow-sm mb-20">
           
           <ul className="lg:flex lg:flex-wrap lg:justify-between lg:gap-8 mx-auto sm:w-2/3 lg:w-full">
-            <li className="sm:p-5 py-3 flex">
+            <li className="sm:p-5 py-5 flex">
               <div className="">
                 <div className="w-full flex content-center items-center justify-between gap-x-5">
                   
@@ -76,7 +76,7 @@ const IndexPage = () => {
                   <div className="">
                     <p className="text-[#F47500] sm:text-xl font-semibold">Obuc</p>
                     <p className="sm:text-base text-gray-500 text-sm">Analista de Programação</p>
-                    <span className="items-center hidden sm:flex text-gray-500">
+                    <span className="items-center sm:text-base text-sm text-gray-500">
                       <b>2021 - Até o momento</b>
                     </span>
                   </div>
@@ -84,7 +84,7 @@ const IndexPage = () => {
               </div>
             </li>
 
-            <li className="sm:p-5 py-3 flex">
+            <li className="sm:p-5 py-5 flex">
               <div className="">
                 <div className="w-full flex content-center items-center justify-between gap-x-5">
                   
@@ -95,7 +95,7 @@ const IndexPage = () => {
                   <div className="">
                     <p className="text-[#F47500] sm:text-xl font-semibold">Contass Consultoria</p>
                     <p className="sm:text-base text-gray-500 text-sm">Desenvolvedor PHP</p>
-                    <span className="items-center hidden sm:flex text-gray-400">
+                    <span className="items-center sm:text-base text-sm text-gray-400">
                       <b>2019 - 2021</b>
                     </span>
                   </div>
@@ -104,7 +104,7 @@ const IndexPage = () => {
               </div>
             </li>
 
-            <li className="sm:p-5 py-3 flex">
+            <li className="sm:p-5 py-5 flex">
               <div className="">
                 <div className="w-full flex content-center items-center justify-between gap-x-5">
                   
@@ -115,7 +115,7 @@ const IndexPage = () => {
                   <div className="">
                     <p className="text-[#F47500] sm:text-xl font-semibold">DF Soluções</p>
                     <p className="sm:text-base text-gray-500 text-sm">Desenvolvedor Web</p>
-                    <span className="items-center hidden sm:flex text-gray-400">
+                    <span className="items-center sm:text-base text-sm flex text-gray-400">
                       <b>2019</b>
                     </span>
                   </div>

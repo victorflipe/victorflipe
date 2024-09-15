@@ -24,7 +24,7 @@ const IndexPage = () => {
           <div className="sm:flex items-center sm:justify-around sm:p-5">
 
             <div className=" text-[#6B6B6B] sm:px-5 sm:py-10 h-[80%] hover:border-solid sm:w-2/4 text-justify">
-                <p className="text-center sm:text-left font-semibold text-lg text-orange-600">Bem vindo(a) a minha página!</p><br/><br/>
+                {/* <p className="text-center sm:text-left font-semibold text-lg text-orange-600">Bem vindo(a) a minha página!</p><br/><br/> */}
                 <div className="w-[15rem] p-5 justify-center sm:hidden flex mb-10 mx-auto">
                   <img className="rounded-[20px] shadow-xl shadow-slate-400 w-[80%]" src={myPhoto}/>
                 </div>

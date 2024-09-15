@@ -20,12 +20,12 @@ const IndexPage = () => {
       
       <div className="text-base content-center">
 
-        <div className="bg-white rounded-[20px] border shadow-sm border-[#F47500]/[.28] items-center p-10">
+        <div className="bg-white/70 backdrop-blur-0 sm:rounded-[20px] sm:border sm:shadow-sm border-[#F47500]/[.28] items-center p-10">
           <div className="sm:flex items-center sm:justify-around sm:p-5">
 
             <div className=" text-[#6B6B6B] sm:px-5 sm:py-10 h-[80%] hover:border-solid sm:w-2/4 text-justify">
                 <p className="text-center sm:text-left font-semibold text-lg text-orange-600">Bem vindo(a) a minha página!</p><br/><br/>
-                <div className="w-[15rem] p-5 justify-center sm:hidden flex mb-10">
+                <div className="w-[15rem] p-5 justify-center sm:hidden flex mb-10 mx-auto">
                   <img className="rounded-[20px] shadow-xl shadow-slate-400 w-[80%]" src={myPhoto}/>
                 </div>
                 <p>
@@ -36,7 +36,7 @@ const IndexPage = () => {
                 
             </div>
           
-            <div className="hidden w-[15rem] p-5 justify-center sm:flex">
+            <div className="hidden w-[15rem] p-5 sm:flex">
               <img className="rounded-[20px] shadow-xl rotate-6 shadow-slate-400 w-[80%]" src={myPhoto}/>
             </div>
           </div>
@@ -61,9 +61,9 @@ const IndexPage = () => {
       
       {/* Work */}
       <div className="relative pt-20">
-        <h2 className="text-3xl text-[#F47500] font-semibold pb-10 px-10 sm:px-0">Experiência</h2>
+        <h2 className="text-3xl text-[#F47500] font-semibold pb-20 sm:pb-10 px-10 sm:px-0">Experiência</h2>
         
-        <div className="bg-white/40 backdrop-blur-sm border border-[#F47500]/[.28] text-[#6B6B6B] px-10 py-10 rounded-[20px] shadow-sm mb-20">
+        <div className="bg-white/40 backdrop-blur-sm sm:border border-[#F47500]/[.28] text-[#6B6B6B] px-10 py-10 sm:rounded-[20px] sm:shadow-sm mb-20">
           
           <ul className="lg:flex lg:flex-wrap lg:justify-between lg:gap-8 mx-auto sm:w-2/3 lg:w-full">
             <li className="sm:p-5 py-3 flex">

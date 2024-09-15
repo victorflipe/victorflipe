@@ -208,7 +208,7 @@ const Stack = () => {
     )
 }
 
-export const Head = () => <title>Stack</title>
+export const Head = () => <title>Stack - Victor Felipe</title>
 
 export default Stack
 

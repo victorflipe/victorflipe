@@ -10,7 +10,7 @@ import github from "../images/icons/github-icon.svg"
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page" marginFooter="true" noTitle="true">
+    <Layout pageTitle="Sobre Mim" marginFooter="true" noTitle="true">
       
       {/* Content main */}
       
@@ -29,8 +29,7 @@ const IndexPage = () => {
                   <img className="rounded-[20px] shadow-xl shadow-slate-400 w-[80%]" src={myPhoto}/>
                 </div>
                 <p>
-                Sou apaixonado por UX/UI, sendo um grande entusiasta do frontend 
-                e tudo que vise facilitar os serviços humanos usando tecnologia, estou há mais de 05 anos construindo soluções por meio da codificação...
+                Há mais de 05 anos transformando ideias em soluções digitais, sou apaixonado por UX/UI, sendo um grande entusiasta do frontend e tentando simplificar a vida das pessoas através da codificação. 
                 </p>
                 <br/>
                 
@@ -133,4 +132,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Victor Felipe - Software Engineer</title>

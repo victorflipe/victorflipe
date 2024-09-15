@@ -1,5 +1,5 @@
 import * as React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import dfSolutionsLogo from "../images/logos/df-solutions_logo.jpeg"
 import contassConsultoria from "../images/logos/contass-consultoria_logo.jpeg"
 import obucTechLogo from "../images/logos/obuc-tech_logo.jpeg"

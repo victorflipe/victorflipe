@@ -1,5 +1,5 @@
 import * as React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Technology from "../components/Technology"
 import figma from "../images/icons/figma.png"
 import trello from "../images/icons/trello.png"

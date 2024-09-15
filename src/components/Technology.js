@@ -10,7 +10,7 @@ const Technology = ({name, type, active, children}) => {
             <div className='flex flex-col items-center'>
                 <div>
                     <span className={`${active ? "text-gray-500" : "text-gray-400"} text-t font-semibold`}>{name}</span>
-                    <span className={`absolute inline-flex h-1 w-2 rounded-full ${active ? "bg-green-500" : "bg-orange-400"} opacity-75 delay-700`}></span>
+                    <span className={`absolute inline-flex h-2 w-2 rounded-full ${active ? "bg-green-500" : "bg-orange-400"} opacity-75 delay-700`}></span>
                 </div>
                 <span className="text-sm font-normal text-gray-400 capitalize">{type}</span>
             </div>

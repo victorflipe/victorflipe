@@ -150,7 +150,7 @@ const Stack = () => {
         },
         {
             name: "ChatGPT",
-            type: "development",
+            type: "productivity",
             active: true,
             image: chatgpt
         },
@@ -162,7 +162,7 @@ const Stack = () => {
         },
         {
             name: "draw.io",
-            type: "development",
+            type: "productivity",
             active: true,
             image: drawio
         },
@@ -194,7 +194,7 @@ const Stack = () => {
                         stackList.map(item => {
                             return (
                             <Technology name={item.name} type={item.type} active={item.active ? "true" : ""} key={item.name}>
-                                <img className="w-10" src={item.image} alt={item.name}/>
+                                <img className="md:w-10 w-7" src={item.image} alt={item.name}/>
                             </Technology>)
                         })
                     }

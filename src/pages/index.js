@@ -21,21 +21,25 @@ const IndexPage = () => {
       <div className="text-base content-center">
 
         <div className="bg-white rounded-[20px] border shadow-sm border-[#F47500]/[.28] items-center p-10">
-        <div className="flex items-center sm:justify-around sm:p-5">
-          <div className=" text-[#6B6B6B] sm:px-5 sm:py-10 h-[80%] hover:border-solid sm:w-2/4 text-justify">
-              <p className="text-center sm:text-left font-semibold text-lg text-orange-600">Bem vindo(a) a minha página!</p><br/><br/>
-              <p>
-              Sou apaixonado por UX/UI, sendo um grande entusiasta do frontend 
-              e tudo que vise facilitar os serviços humanos usando tecnologia, estou há mais de 05 anos construindo soluções por meio da codificação...
-              </p>
-              <br/>
-              
+          <div className="sm:flex items-center sm:justify-around sm:p-5">
+
+            <div className=" text-[#6B6B6B] sm:px-5 sm:py-10 h-[80%] hover:border-solid sm:w-2/4 text-justify">
+                <p className="text-center sm:text-left font-semibold text-lg text-orange-600">Bem vindo(a) a minha página!</p><br/><br/>
+                <div className="w-[15rem] p-5 justify-center sm:hidden flex mb-10">
+                  <img className="rounded-[20px] shadow-xl shadow-slate-400 w-[80%]" src={myPhoto}/>
+                </div>
+                <p>
+                Sou apaixonado por UX/UI, sendo um grande entusiasta do frontend 
+                e tudo que vise facilitar os serviços humanos usando tecnologia, estou há mais de 05 anos construindo soluções por meio da codificação...
+                </p>
+                <br/>
+                
+            </div>
+          
+            <div className="hidden w-[15rem] p-5 justify-center sm:flex">
+              <img className="rounded-[20px] shadow-xl rotate-6 shadow-slate-400 w-[80%]" src={myPhoto}/>
+            </div>
           </div>
-        
-          <div className="w-[15rem] p-5 justify-center hidden sm:flex">
-            <img className="rounded-[20px] shadow-xl rotate-6 shadow-slate-400 w-[80%]" src={myPhoto}/>
-          </div>
-        </div>
 
           <div className="flex justify-center gap-10 items-center mt-3 px-10">
             <a href="https://www.linkedin.com/in/victorroli/" className="" target="_blank" rel="noreferrer">

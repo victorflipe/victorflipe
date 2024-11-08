@@ -29,7 +29,7 @@ const IndexPage = () => {
                   <img className="rounded-[20px] shadow-xl shadow-slate-400 w-[80%]" src={myPhoto}/>
                 </div>
                 <p>
-                Há mais de 05 anos transformando ideias em soluções digitais, sou apaixonado por UX/UI, sendo um grande entusiasta do frontend e tentando simplificar a vida das pessoas através da codificação. 
+                Sou Desenvolvedor Full Stack com mais de 6 anos de experiência, focado em projetar e desenvolver soluções inovadoras que possuam alto impacto. E fico super empolgado em criar projetos que encantam, agreguem valor e façam os olhos brilharem. 
                 </p>
                 <br/>
                 

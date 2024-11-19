@@ -20,6 +20,7 @@ jobs:
         port: ${{ vars.PORT }}
         username: ${{ vars.USERNAME }}
         key: ${{ secrets.HOST_KEY }}
+        debug: true
         script: |
           cd /var/www/sites-victor/victorflipe/ &&
           git pull origin main  &&

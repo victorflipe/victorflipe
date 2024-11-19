@@ -15,7 +15,7 @@ const IndexPage = () => {
       {/* Content main */}
       
       <h1 className="xl:text-5xl md:text-4xl text-3xl pb-14 px-10 sm:px-0 text-[#6B6B6B] font-semibold mt-10">
-        Muito prazer,<br/> eu sou o <span className="text-[#F47500]">Victor Felipe's</span><br/>
+        Muito prazer,<br/> eu sou o <span className="text-[#F47500]">Victor Felipe</span><br/>
       </h1>
       
       <div className="text-base content-center">

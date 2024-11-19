@@ -19,7 +19,7 @@ jobs:
         host: ${{ vars.HOST }}
         port: ${{ vars.PORT }}
         username: ${{ vars.USERNAME }}
-        key: ${{ secrets.PRIVATE_KEY }}
+        key: ${{ secrets.HOST_KEY }}
         debug: true
         script: |
           cd /var/www/sites-victor/victorflipe/ &&

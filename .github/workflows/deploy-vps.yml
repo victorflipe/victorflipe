@@ -23,7 +23,7 @@ jobs:
       # 3. Executar os comandos na VPS
       - name: Deploy to VPS
         run: |
-          ssh -o StrictHostKeyChecking=no victor@167.88.33.145 << 'EOF'
+          ssh -o StrictHostKeyChecking=no ${{ vars.USERNAME }}@${{ vars.HOST }} << 'EOF'
             cd /var/www/sites-victor/victorflipe
             git pull origin main
             npm install

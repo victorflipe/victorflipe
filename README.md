@@ -16,21 +16,21 @@
 
 <div align="center">
   <!-- Linguagens -->
-  <img align="center" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" />
-  <img align="center" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="TypeScript" />
-  <img align="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
-  <img align="center" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" />
-
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=javascript" alt="Javascript" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=typescript" alt="Typescript" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=python" alt="Python" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=php" alt="PHP" /> 
   <!-- Frameworks -->
-  <img align="center" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" />
-  <img align="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" />
-  <img align="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" />
-  <img align="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="Laravel" />
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=react" alt="React" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=vuejs" alt="Vuejs" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=laravel" alt="Laravel" /> 
 
   <!-- Outros -->
-  <img align="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node.js" />
-  <img align="center" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" />
-  <img align="center" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" />
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=gcp" alt="GCP" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=nodejs" alt="Nodejs" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=html" alt="HTML5" /> 
+  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=css" alt="CSS3" /> 
 </div>
 
 ---

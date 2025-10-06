@@ -2,7 +2,7 @@
 
 - 💻 Engenheiro de Software  
 - 🎓 Pós-graduado em Engenharia de Software  
-- 🧠 +6 anos de experiência ajudando empresas através do desenvolvimento
+- 🧠 +6 anos de experiência atuando com desenvolvimento
 - 🚀 Principais stacks: Python, JavaScript e PHP
 
 <div align="center">

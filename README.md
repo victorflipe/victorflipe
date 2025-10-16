@@ -14,7 +14,7 @@
 
 ---
 
-<div align="center wrap">
+<div align="center">
   <!-- Linguagens -->
   <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=javascript" alt="Javascript" /> 
   <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=typescript" alt="Typescript" /> 

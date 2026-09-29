@@ -1,36 +1,20 @@
-### 👋 Olá, muito prazer! Sou o Victor Felipe
-
-- 💻 Engenheiro de Software  
-- 🎓 Pós-graduado em Engenharia de Software  
-- 🧠 +6 anos de experiência atuando com desenvolvimento
-- 🚀 Principais stacks: Python, JavaScript e PHP
+<!-- GIFOS:START -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./output.gif">
+    <source media="(prefers-color-scheme: light)" srcset="./output.gif">
+    <img alt="GIFOS" src="output.gif">
+  </picture>
+  <br>
+  <sub><i>Gerado com <a href="https://github.com/x0rzavi/github-readme-terminal">github-readme-terminal</a> em Tue Sep 29 10:25:27 AM UTC-03:00 2026</i></sub>
+</div>
+<!-- GIFOS:END -->
 
 <div align="center">
   <a href="https://github.com/victorflipe">
     <img height="170em" src="https://github-readme-stats.vercel.app/api?username=victorflipe&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
     <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=victorflipe&layout=compact&langs_count=7&theme=dark"/>
   </a>
-</div>
-
----
-
-<div align="center">
-  <!-- Linguagens -->
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=javascript" alt="Javascript" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=typescript" alt="Typescript" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=python" alt="Python" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=php" alt="PHP" /> 
-  <!-- Frameworks -->
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=react" alt="React" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=vuejs" alt="Vuejs" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=laravel" alt="Laravel" /> 
-
-  <!-- Outros -->
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=gcp" alt="GCP" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=nodejs" alt="Nodejs" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=html" alt="HTML5" /> 
-  <img align="center" height="40" width="50" src="https://skillicons.dev/icons?i=css" alt="CSS3" /> 
 </div>
 
 ---

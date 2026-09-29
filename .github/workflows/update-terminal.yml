@@ -1,0 +1,33 @@
+name: Update terminal GIF
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update && sudo apt install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install -r requirements-readme.txt
+
+      - name: Generate GIF
+        run: python main.py
+        env:
+          GIFOS_GENERAL_COLOR_SCHEME: "everblush"
+          GIFOS_GENERAL_USER_NAME: "victorflipe"
+
+      - name: Commit GIF
+        run: |
+          git add README.md output.gif
+          git diff --cached --quiet || git -c "user.name=bot" -c "user.email=bot@github.com" commit -m "chore: update terminal gif"
+          git push

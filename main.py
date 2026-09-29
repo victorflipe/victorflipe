@@ -12,6 +12,11 @@ TZ = timezone(timedelta(hours=-3))
 README_PATH = Path("README.md")
 MARKER_START = "<!-- GIFOS:START -->"
 MARKER_END = "<!-- GIFOS:END -->"
+SIDE_IMAGE_ROW = 4
+SIDE_IMAGE_COL = 3
+SIDE_IMAGE_SCALE = 0.15
+SIDE_TEXT_COL = 32
+TECH_IMAGE_ROW = 7
 
 
 def update_readme(time_now: str) -> None:
@@ -97,13 +102,13 @@ def main() -> None:
     t.toggle_show_cursor(False)
     t.gen_text(f"Last login: {time_now} on tty1", 6)
 
-    details = f"""
+    details = """
     \x1b[97mOlá, muito prazer! Sou o Victor Felipe\x1b[0m
     \x1b[30;101mvictorflipe@GitHub\x1b[0m
     --------------
     \x1b[96mOS:     \x1b[93mWindows 11, Linux\x1b[0m
     \x1b[96mHost:   \x1b[93mMontes Claros - MG\x1b[0m
-    \x1b[96mKernel: \x1b[93mEngenharia de Software\x1b[0m
+    \x1b[96mKernel: \x1b[93mSoftware Engineer\x1b[0m
     \x1b[96mUptime: \x1b[93m7+ years shipping code\x1b[0m
     \x1b[96mIDE:    \x1b[93mVS Code, Cursor\x1b[0m
     \x1b[96mStack:  \x1b[93mPython, JavaScript, PHP\x1b[0m
@@ -119,8 +124,15 @@ def main() -> None:
     t.toggle_show_cursor(True)
     t.gen_typing_text("\x1b[92mwhoiam\x1b[0m", 1, contin=True)
     t.toggle_show_cursor(False)
-    t.gen_text(details, 2, count=5, contin=True)
-    t.gen_prompt(t.curr_row)
+    t.gen_text(details, 2, SIDE_TEXT_COL, count=5, contin=True)
+    prompt_row = t.curr_row
+    t.paste_image(
+        "images/avatar.png",
+        SIDE_IMAGE_ROW,
+        SIDE_IMAGE_COL,
+        size_multiplier=SIDE_IMAGE_SCALE,
+    )
+    t.gen_prompt(prompt_row)
     t.toggle_show_cursor(True)
     t.gen_text("", t.curr_row, count=80, contin=True)
     t.gen_typing_text("\x1b[92mclear\x1b[0m", t.curr_row, contin=True)
@@ -146,7 +158,8 @@ def main() -> None:
 
     \x1b[96mAutomation and Platforms:\x1b[0m
     --------------
-    \x1b[93mGitHub Actions, Azure Boards, Trello, Power Platform, Selenium, SAP, Pipefy\x1b[0m
+    \x1b[93mGitHub Actions, Azure Boards, Trello,\x1b[0m
+    \x1b[93mPower Platform, Selenium, SAP, Pipefy\x1b[0m
     """
 
     t.clear_frame()
@@ -154,8 +167,15 @@ def main() -> None:
     t.toggle_show_cursor(True)
     t.gen_typing_text("\x1b[92mwhich technologies\x1b[0m", 1, contin=True)
     t.toggle_show_cursor(False)
-    t.gen_text(techs, 2, count=5, contin=True)
-    t.gen_prompt(t.curr_row)
+    t.gen_text(techs, 2, SIDE_TEXT_COL, count=5, contin=True)
+    prompt_row = t.curr_row
+    t.paste_image(
+        "images/technology.png",
+        TECH_IMAGE_ROW,
+        SIDE_IMAGE_COL,
+        size_multiplier=SIDE_IMAGE_SCALE,
+    )
+    t.gen_prompt(prompt_row)
     t.toggle_show_cursor(True)
     t.gen_text("", t.curr_row, count=130, contin=True)
     t.gen_typing_text(

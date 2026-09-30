@@ -103,7 +103,7 @@ def main() -> None:
     t.gen_text(f"Last login: {time_now} on tty1", 6)
 
     details = """
-    \x1b[97mOlá, muito prazer! Sou o Victor Felipe\x1b[0m
+    \x1b[97mHello, nice to meet you! I'm Victor Felipe.\x1b[0m
     \x1b[30;101mvictorflipe@GitHub\x1b[0m
     --------------
     \x1b[96mOS:     \x1b[93mWindows 11, Linux\x1b[0m

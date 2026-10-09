@@ -144,7 +144,7 @@ def main() -> None:
     --------------
     \x1b[93mJavaScript, TypeScript, Python, PHP\x1b[0m
 
-    \x1b[96mFrameworks:\x1b[0m
+    \x1b[96mFrameworks/Libs:\x1b[0m
     --------------
     \x1b[93mReact, Vue.js, FastAPI, Laravel, Next.js, Flask\x1b[0m
 
